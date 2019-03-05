@@ -1,0 +1,14 @@
+url = git@github.com:GugzSingh/web-server.git
+
+download & install heroku toolbelt
+
+Heroku commands:
+
+heroku create  --> Makes a new heroku app and adds a heroku git remote 
+heroku rename <app_name_here>   --> Changes the name of you application 
+
+
+git add .  --> adds files to commit 
+git commit -am "Init repo"  --> commit's files to repository
+git push heroku master  --> pushes the application code to the heroku, and you will be able to see your application live on the web 
+heroku open  --> Shortcut to open your app on your default browser 
